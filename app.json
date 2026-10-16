@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "eas-simulator-embed-example",
+    "name": "EAS Simulator embed example",
     "slug": "eas-simulator-embed-example",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,16 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
+      "output": "static",
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "eas-simulator-embed-example",
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
