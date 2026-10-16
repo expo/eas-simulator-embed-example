@@ -46,7 +46,7 @@ export default function IframePage() {
             title="EAS Simulator preview"
             referrerPolicy="no-referrer"
             sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
-            allow="clipboard-write; fullscreen"
+            allow="clipboard-read; clipboard-write; fullscreen"
             style={{ width: '100%', height: '80vh', border: '1px solid #ccc', borderRadius: 8 }}
           />
         </>
