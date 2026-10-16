@@ -2,6 +2,8 @@
 
 A small Expo web app that shows two ways to put an EAS Simulator session on your own page.
 
+Live at https://simulator-embed-example.expo.app. Pass that origin to the flags below when you use the deployed site.
+
 - `/iframe` frames the preview host page. The session must allow your origin with `--frame-ancestor`.
 - `/hub-client` renders the device screen with `@expo/hub-client` and sends touch and keyboard input back. The session must allow your origin with `--cors-origin`.
 
