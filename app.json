@@ -29,6 +29,17 @@
     "scheme": "eas-simulator-embed-example",
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "ef3d93a7-75e4-45ec-b6a8-2c746defbc17"
+      }
+    },
+    "owner": "krystofwoldrich"
   }
 }
